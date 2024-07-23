@@ -82,11 +82,35 @@ label{
 }
 
 @media only screen and (max-width: 480px) {
-    .container{
-        margin-top: 150px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
+    .container {
+      width: 90%;
+      margin-top: 100px;
     }
   }
+  @media only screen and (max-width: 480px) {
+    label {
+      font-size: medium;
+    }
+    #age, #height, #weight {
+      font-size: medium;
+      width: 100px;
+      margin-left: 20px;
+    }
+    #sum {
+      font-size: larger;
+    }
+    .age, .gender, .hw, .calculate, .re {
+      padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    button {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .head {
+      margin-top: 0;
+    }
+  }
+  
